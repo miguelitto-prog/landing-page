@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Vassouras | Vale do Café — Secretaria de Turismo</title>
+<meta name="description" content="A Cidade dos Barões: fazendas centenárias, casarões tombados pelo IPHAN e o berço do café no Brasil imperial, a 120 km do Rio de Janeiro.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -24,10 +26,10 @@
 <header class="main">
   <div class="header-inner">
     <a href="index.html" class="brand">
-      <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#0E8A5B"/><path d="M20 11c-4 3-4 8 0 11 4-3 4-8 0-11Z" fill="#F5A623"/><path d="M20 22v7" stroke="#F5A623" stroke-width="1.6"/></svg>
+      <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#2E4638"/><path d="M20 11c-4 3-4 8 0 11 4-3 4-8 0-11Z" fill="#C99A3F"/><path d="M20 22v7" stroke="#C99A3F" stroke-width="1.6"/></svg>
       <span><span class="brand-text">Vassouras</span><span class="brand-sub">VALE DO CAFÉ · RJ</span></span>
     </a>
-    <button class="nav-toggle" id="navToggle">Menu</button>
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="primaryNav">Menu</button>
     <nav class="primary" id="primaryNav">
       <a href="index.html" class="active">Início</a>
       <a href="atrativos.html">Atrativos</a>
@@ -46,8 +48,8 @@
     <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%A2mara%20Municipal%20de%20Vassouras.JPG" alt="Câmara Municipal de Vassouras, casarão histórico do século 19">
     <div class="wrap">
       <span class="kicker">Secretaria de Turismo de Vassouras</span>
-      <h1>Bem-vindo à Cidade dos Barões</h1>
-      <p>No coração do Vale do Café fluminense, a 120 km do Rio, Vassouras foi a maior produtora de café do mundo no século 19. Hoje, palacetes, fazendas centenárias e um casario tombado pelo IPHAN recebem quem quer viver essa história de perto.</p>
+      <h1>A cidade que o café construiu</h1>
+      <p>No coração do Vale do Café fluminense, Vassouras foi por décadas a maior produtora de café do mundo. Hoje, palacetes, fazendas centenárias e um casario tombado pelo IPHAN recebem quem quer atravessar o século 19 a pé.</p>
       <div class="actions">
         <a class="btn gold" href="atrativos.html">Ver atrativos turísticos</a>
         <a class="btn btn-outline" href="como-chegar.html">Como chegar</a>
@@ -55,24 +57,32 @@
     </div>
   </section>
 
+  <div class="wrap">
+    <div class="stat-ribbon">
+      <div class="inner">
+        <div class="stat"><span class="num">120 km</span><span class="label">do Rio de Janeiro, via Dutra ou BR-393</span></div>
+        <div class="stat"><span class="num">1782</span><span class="label">ano de fundação do povoado</span></div>
+        <div class="stat"><span class="num">1958</span><span class="label">centro histórico tombado pelo IPHAN</span></div>
+      </div>
+    </div>
+  </div>
+
   <section>
     <div class="wrap">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">Planeje sua visita</span>
-        <h2>Tudo o que você precisa para conhecer Vassouras</h2>
-        <p>Do centro histórico às fazendas do ciclo do café, um roteiro completo dividido por interesse.</p>
+        <h2>Um roteiro para cada interesse</h2>
+        <p>Do centro histórico às fazendas do ciclo do café, escolha por onde começar a conhecer Vassouras.</p>
       </div>
       <div class="grid grid-3">
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o%20Ferrovi%C3%A1ria%20de%20Vassouras%2002.JPG" alt="Antiga Estação Ferroviária de Vassouras"></div>
           <div class="body">
             <h3>Atrativos turísticos</h3>
-            <p>Praça Barão de Campo Belo, Igreja Matriz, Casa da Hera, Memorial Manoel Congo e a Antiga Estação Ferroviária de 1875.</p>
+            <p>Praça Barão de Campo Belo, Igreja Matriz, Casa da Hera, Memorial Manoel Congo e a Estação Ferroviária de 1875.</p>
             <a class="go" href="atrativos.html">Saiba mais →</a>
           </div>
         </div>
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg" alt="Fazenda histórica do ciclo do café em Vassouras"></div>
           <div class="body">
@@ -81,7 +91,6 @@
             <a class="go" href="fazendas.html">Saiba mais →</a>
           </div>
         </div>
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cafezinho%20em%20Ponta%20Grossa.jpg" alt="Cafezinho brasileiro servido em xícara"></div>
           <div class="body">
@@ -90,7 +99,6 @@
             <a class="go" href="cafe.html">Saiba mais →</a>
           </div>
         </div>
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Caf%C3%A9%20da%20manh%C3%A3%20brasileiro.jpg" alt="Mesa de café da manhã brasileiro"></div>
           <div class="body">
@@ -99,7 +107,6 @@
             <a class="go" href="gastronomia.html">Saiba mais →</a>
           </div>
         </div>
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Pousada%20Fazenda%20S%C3%A3o%20Benedito.jpg" alt="Pousada em casarão de fazenda colonial"></div>
           <div class="body">
@@ -108,7 +115,6 @@
             <a class="go" href="hospedagem.html">Saiba mais →</a>
           </div>
         </div>
-
         <div class="card">
           <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cidade%20de%20Vassouras-Rj.jpg" alt="Vista da cidade de Vassouras"></div>
           <div class="body">
@@ -117,14 +123,13 @@
             <a class="go" href="como-chegar.html">Saiba mais →</a>
           </div>
         </div>
-
       </div>
     </div>
   </section>
 
   <section class="section-alt">
     <div class="wrap">
-      <div class="section-head">
+      <div class="section-head reveal">
         <span class="eyebrow">Uma cidade, quatro séculos</span>
         <h2>A trajetória da Cidade dos Barões</h2>
       </div>
@@ -140,13 +145,13 @@
   <section>
     <div class="wrap">
       <div class="feature-split">
-        <div class="img-col">
+        <div class="img-col reveal">
           <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20Casa%20da%20Hera%20-%20Vassouras-RJ.jpg" alt="Museu Casa da Hera em Vassouras">
         </div>
-        <div>
+        <div class="reveal">
           <span class="eyebrow">Museu Casa da Hera</span>
           <h2>A casa que parou no tempo</h2>
-          <p style="margin-top:14px; color:var(--ink-soft);">Erguida pela família do negociante de café Joaquim José Teixeira Leite, a Casa da Hera preserva os ambientes tal como deixados por sua última moradora, Eufrásia Teixeira Leite — piano de cauda de 1862 incluso.</p>
+          <p style="margin-top:14px;">Erguida pela família do negociante de café Joaquim José Teixeira Leite, a Casa da Hera preserva os ambientes tal como deixados por sua última moradora, Eufrásia Teixeira Leite — piano de cauda de 1862 incluso.</p>
           <a class="btn" style="margin-top:20px;" href="atrativos.html">Conhecer os museus</a>
         </div>
       </div>
@@ -208,8 +213,18 @@
 </footer>
 
 <script>
-  var t=document.getElementById('navToggle'), n=document.getElementById('primaryNav');
-  t.addEventListener('click', function(){ n.classList.toggle('open'); });
+  var t = document.getElementById('navToggle'), n = document.getElementById('primaryNav');
+  t.addEventListener('click', function () {
+    var open = n.classList.toggle('open');
+    t.setAttribute('aria-expanded', open ? 'true' : 'false');
+  });
+
+  var io = new IntersectionObserver(function (entries) {
+    entries.forEach(function (e) {
+      if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); }
+    });
+  }, { threshold: 0.15 });
+  document.querySelectorAll('.reveal').forEach(function (el) { io.observe(el); });
 </script>
 </body>
 </html>
