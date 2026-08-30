@@ -129,9 +129,10 @@ header.main{
   font-family:'Inter',sans-serif;
   font-size:.66rem;
   font-weight:600;
-  letter-spacing:.09em;
+  letter-spacing:.03em;
   color:var(--gold-600);
   margin-top:1px;
+  max-width:220px;
 }
 
 .primary{display:flex; gap:2px; align-items:center;}
