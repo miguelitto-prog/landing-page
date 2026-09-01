@@ -3,193 +3,134 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Atrativos Turísticos | Vassouras</title>
+<title>Atrativos turísticos | Vassouras</title>
+<meta name="description" content="Praças, igrejas, museus e marcos históricos do centro tombado pelo IPHAN em Vassouras, a Cidade dos Barões do Café.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <div class="topbar">
   <div class="wrap">
-    <div class="contact-strip">
+    <div class="contato">
+      <span>Secretaria de Turismo de Vassouras</span>
       <a href="tel:+552424919018">(24) 2491-9018</a>
       <a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a>
     </div>
-    <div class="contact-strip">
-      <a href="https://www.instagram.com/visitevassouras/">Instagram</a>
-      <a href="https://www.facebook.com/visitevassourasof">Facebook</a>
+    <div class="social">
+      <a href="https://www.instagram.com/visitevassouras/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/visitevassourasof" target="_blank" rel="noopener">Facebook</a>
     </div>
   </div>
 </div>
-
-<header class="main">
-  <div class="header-inner">
+<header class="site">
+  <div class="wrap">
     <a href="index.html" class="brand">
-      <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#0E8A5B"/><path d="M20 11c-4 3-4 8 0 11 4-3 4-8 0-11Z" fill="#F5A623"/><path d="M20 22v7" stroke="#F5A623" stroke-width="1.6"/></svg>
-      <span><span class="brand-text">Vassouras</span><span class="brand-sub">VALE DO CAFÉ · RJ</span></span>
+      <span class="emblema"><span></span><span></span><span></span><span></span></span>
+      <span>
+        <span class="nome">Vassouras</span>
+        <span class="sub">Cidade Histórica, Turística &amp; Universitária</span>
+      </span>
     </a>
-    <button class="nav-toggle" id="navToggle">Menu</button>
-    <nav class="primary" id="primaryNav">
-      <a href="index.html">Início</a>
-      <a href="atrativos.html" class="active">Atrativos</a>
-      <a href="fazendas.html">Fazendas</a>
-      <a href="cafe.html">Café &amp; Chorinho</a>
-      <a href="gastronomia.html">Gastronomia</a>
-      <a href="hospedagem.html">Hospedagem</a>
-      <a href="como-chegar.html">Como chegar</a>
+    <nav class="principal" id="navPrincipal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+<li><a href="atrativos.html" class="ativo">Atrativos</a></li>
+<li><a href="fazendas.html">Fazendas</a></li>
+<li><a href="cafe.html">Café & Chorinho</a></li>
+<li><a href="gastronomia.html">Gastronomia</a></li>
+<li><a href="hospedagem.html">Hospedagem</a></li>
+<li><a href="como-chegar.html">Como chegar</a></li>
+
+      </ul>
     </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
   </div>
 </header>
-
-<main>
-
-  <section class="page-hero">
-    <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o%20Ferrovi%C3%A1ria%20de%20Vassouras%2002.JPG" alt="Antiga Estação Ferroviária de Vassouras">
-    <div class="wrap">
-      <span class="kicker">Centro histórico tombado pelo IPHAN</span>
-      <h1>Atrativos turísticos</h1>
-      <p>Em poucos quarteirões, o luxo da aristocracia cafeeira do século 19 — palacetes, praças, igrejas e museus a poucos minutos de caminhada uns dos outros.</p>
+<section class="hero hero-interna" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o%20Ferrovi%C3%A1ria%20de%20Vassouras%2002.JPG');">
+  <div class="hero-inner">
+    <span class="eyebrow">Roteiro pela cidade</span>
+    <h1>Atrativos turísticos</h1>
+    <p class="lede">Do casario imperial aos museus que guardam a memória do ciclo do café, um roteiro por marcos que moldaram a história do Vale.</p>
+    <div class="hero-cta">
+      <a href="fazendas.html" class="btn btn-solid">Ver fazendas históricas</a>
+      <a href="#lista" class="btn btn-ghost">Ver lista completa</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Roteiro pelo centro</span>
-        <h2>O que ver em Vassouras</h2>
-        <p>A maioria das atrações fica ao redor da Praça Barão de Campo Belo, a menos de dez minutos de caminhada uma da outra.</p>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cidade%20de%20Vassouras-Rj.jpg" alt="Praça Barão de Campo Belo, cartão-postal de Vassouras"></div>
-          <div class="body">
-            <h3>Praça Barão de Campo Belo</h3>
-            <p>Cartão-postal da cidade, com palmeiras imperiais, chafariz monumental e a Igreja Matriz ao fundo. Ponto de partida de qualquer visita ao centro histórico.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Imperial%20Family%20Mausoleum%20(Vassouras).jpg" alt="Igreja Matriz de Nossa Senhora da Conceição"></div>
-          <div class="body">
-            <h3>Igreja Matriz</h3>
-            <p>Erguida entre 1828 e 1857, domina a paisagem da praça principal com sua fachada imponente. Aos domingos, exibe uma mostra de arte sacra com entrada gratuita.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/C%C3%A2mara%20Municipal%20de%20Vassouras.JPG" alt="Câmara Municipal de Vassouras"></div>
-          <div class="body">
-            <h3>Câmara Municipal</h3>
-            <p>Prédio erguido a partir de 1850, único construído com finalidade pública na época — suas colunas de pedra foram apadrinhadas por figuras ilustres do período.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20Casa%20da%20Hera%20-%20Vassouras-RJ.jpg" alt="Museu Casa da Hera"></div>
-          <div class="body">
-            <h3>Museu Casa da Hera</h3>
-            <p>Casarão do século 19 da família Teixeira Leite, preservado como deixado por sua última moradora — com piano de cauda de 1862 e mobiliário original.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Bambuzal%20do%20Museu%20Casa%20da%20Hera%2001.JPG" alt="Jardim do Museu Casa da Hera"></div>
-          <div class="body">
-            <h3>Jardins da Casa da Hera</h3>
-            <p>O bambuzal e os jardins do casarão completam o passeio pelo museu, um dos conjuntos residenciais mais bem preservados do Vale do Paraíba.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Esta%C3%A7%C3%A3o%20Ferrovi%C3%A1ria%20de%20Vassouras%2002.JPG" alt="Antiga Estação Ferroviária de Vassouras"></div>
-          <div class="body">
-            <h3>Antiga Estação Ferroviária</h3>
-            <p>Inaugurada em 1875, hoje abriga um centro gastronômico. No pátio, uma raríssima locomotiva Baldwin de 1889 pode ser visitada.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="section-alt">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Memória e resistência</span>
-        <h2>Memorial Manoel Congo</h2>
-      </div>
-      <div class="feature-split">
-        <div>
-          <p style="color:var(--ink-soft); font-size:1.05rem;">No largo da antiga forca e pelourinho de Vassouras, o memorial homenageia Manoel Congo, líder de uma das maiores rebeliões de escravizados do Vale do Paraíba, em 1838. Capturado e condenado à forca no ano seguinte, é hoje lembrado como símbolo de libertação e um dos nomes centrais da história do município.</p>
-          <ul class="list-clean" style="margin-top:20px;">
-            <li>Parte do circuito de memória do centro histórico</li>
-            <li>Próximo à Praça Barão de Campo Belo</li>
-            <li>Visita a pé, integrada ao roteiro do casario</li>
-          </ul>
-        </div>
-        <div>
-          <img src="https://commons.wikimedia.org/wiki/Special:FilePath/Cidade%20de%20Vassouras-Rj.jpg" alt="Centro histórico de Vassouras" style="border-radius:14px; box-shadow: var(--shadow); width:100%; height:320px; object-fit:cover;">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-band">
-    <div class="wrap">
-      <h2>Quer se hospedar perto de tudo isso?</h2>
-      <p>Veja hotéis e pousadas no centro histórico, a poucos passos de cada atrativo.</p>
-      <div class="actions">
-        <a class="btn gold" href="hospedagem.html">Ver hospedagem</a>
-        <a class="btn btn-outline" href="fazendas.html">Conhecer as fazendas</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer>
+<section id="lista">
   <div class="wrap">
-    <div class="footer-grid">
+    <div class="section-head">
+      <span class="eyebrow">Centro histórico tombado pelo IPHAN</span>
+      <h2>O que ver em Vassouras</h2>
+      <p>Quinze paradas que contam a história da cidade — do apogeu do café à memória da resistência.</p>
+    </div>
+  </div>
+  <div class="atrativos-grid">
+    <div class="at-card"><span class="num">01</span><h3>Praça Barão de Campo Belo</h3><p>O coração cívico da cidade, cercado por casarões e comércio histórico do centro tombado.</p></div>
+<div class="at-card"><span class="num">02</span><h3>Igreja Matriz</h3><p>Marco religioso e arquitetônico, símbolo da fé que acompanhou o apogeu cafeeiro.</p></div>
+<div class="at-card"><span class="num">03</span><h3>Museu Casa da Hera</h3><p>Erguida pela família do negociante Joaquim José Teixeira Leite, preserva os ambientes deixados por Eufrásia Teixeira Leite, com piano de cauda de 1862.</p></div>
+<div class="at-card"><span class="num">04</span><h3>Mirante Imperial</h3><p>Vista panorâmica sobre os telhados históricos e as colinas plantadas de café ao redor da cidade.</p></div>
+<div class="at-card"><span class="num">05</span><h3>Antiga Estação Ferroviária</h3><p>Erguida em 1875, testemunha da era em que trens escoavam o café rumo ao porto do Rio de Janeiro.</p></div>
+<div class="at-card"><span class="num">06</span><h3>Memorial Manoel Congo</h3><p>Espaço de memória dedicado à resistência e à luta dos escravizados no período cafeeiro.</p></div>
+<div class="at-card"><span class="num">07</span><h3>Museu Vila de Vassouras</h3><p>Casarão adquirido em 2017 pelo Instituto Vassouras Cultural, dedicado ao auge do café (1830–1880) e a personagens silenciados, como Marianna Crioula.</p></div>
+<div class="at-card"><span class="num">08</span><h3>Centro Cultural Cazuza</h3><p>Casarão de 1845 revitalizado em 2018 por Lucinha Araújo — mãe do cantor Cazuza, nascida ali —, com peças e objetos do artista.</p></div>
+<div class="at-card"><span class="num">09</span><h3>Câmara Municipal</h3><p>Sede do poder legislativo local, instalada em um dos edifícios históricos do centro.</p></div>
+<div class="at-card"><span class="num">10</span><h3>Palacete Barão do Ribeirão</h3><p>Antiga residência de barão do café, hoje integrada ao patrimônio arquitetônico da cidade.</p></div>
+<div class="at-card"><span class="num">11</span><h3>Pátio Casario</h3><p>Trecho do casario histórico transformado em espaço de convivência e comércio local.</p></div>
+<div class="at-card"><span class="num">12</span><h3>Praça Sebastião de Lacerda</h3><p>Outra praça histórica do centro, ponto de encontro à sombra de árvores centenárias.</p></div>
+<div class="at-card"><span class="num">13</span><h3>Cemitério N. Sr.ª da Conceição</h3><p>Referência do turismo religioso da cidade, onde nasce anualmente a misteriosa Flor de Carne.</p></div>
+<div class="at-card"><span class="num">14</span><h3>Centro de Convenções General Sombra</h3><p>Estrutura para eventos e convenções, ampliando a vocação turística e universitária da cidade.</p></div>
+<div class="at-card"><span class="num">15</span><h3>Festival de Cinema de Vassouras</h3><p>Evento cultural anual que leva o cinema às ruas e espaços históricos da cidade.</p></div>
+
+  </div>
+</section>
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
       <div>
-        <h4>Secretaria de Turismo</h4>
-        <p>Av. Otávio Gomes, 395, sala 26, Centro<br>Vassouras – RJ, CEP 27700-000</p>
-        <p>Segunda a sexta, das 8h às 17h</p>
-        <div class="social-row">
-          <a href="https://www.instagram.com/visitevassouras/" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/></svg>
-          </a>
-          <a href="https://www.facebook.com/visitevassourasof" aria-label="Facebook">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 4h-2a4 4 0 0 0-4 4v2H7v3h2v7h3v-7h2.5l.5-3H12V8a1 1 0 0 1 1-1h2Z"/></svg>
-          </a>
+        <div class="foot-brand">
+          <span class="emblema"><span></span><span></span><span></span><span></span></span>
+          <span class="nome">Vassouras</span>
         </div>
+        <p>Secretaria de Turismo de Vassouras. Av. Otávio Gomes, 395, sala 26, Centro, Vassouras – RJ, CEP 27700-000.</p>
+        <p>Segunda a sexta, das 8h às 17h.</p>
       </div>
-      <div>
-        <h4>Contato</h4>
-        <p><a href="tel:+552424919018">(24) 2491-9018</a></p>
-        <p><a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a></p>
+      <div class="foot-col">
+        <h5>Explorar</h5>
+        <a href="atrativos.html">Atrativos turísticos</a>
+        <a href="fazendas.html">Fazendas históricas</a>
+        <a href="hospedagem.html">Hospedagem</a>
       </div>
-      <div>
-        <h4>Explorar</h4>
-        <p><a href="atrativos.html">Atrativos turísticos</a></p>
-        <p><a href="fazendas.html">Fazendas históricas</a></p>
-        <p><a href="hospedagem.html">Hospedagem</a></p>
+      <div class="foot-col">
+        <h5>Informações</h5>
+        <a href="como-chegar.html">Como chegar</a>
+        <a href="gastronomia.html">Gastronomia</a>
+        <a href="cafe.html">Café, cachaça e chorinho</a>
       </div>
-      <div>
-        <h4>Informações</h4>
-        <p><a href="como-chegar.html">Como chegar</a></p>
-        <p><a href="gastronomia.html">Gastronomia</a></p>
-        <p><a href="cafe.html">Café, cachaça e chorinho</a></p>
+      <div class="foot-col">
+        <h5>Contato</h5>
+        <a href="tel:+552424919018">(24) 2491-9018</a>
+        <a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a>
+        <a href="https://www.instagram.com/visitevassouras/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/visitevassourasof" target="_blank" rel="noopener">Facebook</a>
       </div>
     </div>
     <div class="foot-bottom">
       <span>© 2026 Prefeitura Municipal de Vassouras · Secretaria de Turismo</span>
-      <span>Página inspirada em visitevassouras.com</span>
+      <span>Vale do Café · Estado do Rio de Janeiro</span>
     </div>
   </div>
 </footer>
-
 <script>
-  var t=document.getElementById('navToggle'), n=document.getElementById('primaryNav');
-  t.addEventListener('click', function(){ n.classList.toggle('open'); });
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('navPrincipal');
+  if(toggle){
+    toggle.addEventListener('click', () => nav.classList.toggle('aberto'));
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('aberto')));
+  }
 </script>
 </body>
 </html>
