@@ -47,21 +47,6 @@ img{max-width:100%; display:block;}
   font-weight:700;
 }
 
-/* ---------- marca / emblema de quadrantes ---------- */
-.emblema{
-  width:22px; height:22px;
-  display:inline-grid;
-  grid-template-columns:1fr 1fr;
-  grid-template-rows:1fr 1fr;
-  border-radius:5px;
-  overflow:hidden;
-  flex-shrink:0;
-}
-.emblema span:nth-child(1){background:var(--verde);}
-.emblema span:nth-child(2){background:var(--coral);}
-.emblema span:nth-child(3){background:var(--azul);}
-.emblema span:nth-child(4){background:var(--ambar);}
-
 /* ---------- barra utilitária ---------- */
 .topbar{
   background:var(--grafite-suave);
