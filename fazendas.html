@@ -3,200 +3,136 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fazendas Históricas | Vassouras</title>
+<title>Fazendas históricas | Vassouras</title>
+<meta name="description" content="Fazendas centenárias do ciclo do café em Vassouras, com museus, mobiliário original e hospedagem em casarões do século 19.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400..700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-
 <div class="topbar">
   <div class="wrap">
-    <div class="contact-strip">
+    <div class="contato">
+      <span>Secretaria de Turismo de Vassouras</span>
       <a href="tel:+552424919018">(24) 2491-9018</a>
       <a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a>
     </div>
-    <div class="contact-strip">
-      <a href="https://www.instagram.com/visitevassouras/">Instagram</a>
-      <a href="https://www.facebook.com/visitevassourasof">Facebook</a>
+    <div class="social">
+      <a href="https://www.instagram.com/visitevassouras/" target="_blank" rel="noopener">Instagram</a>
+      <a href="https://www.facebook.com/visitevassourasof" target="_blank" rel="noopener">Facebook</a>
     </div>
   </div>
 </div>
-
-<header class="main">
-  <div class="header-inner">
+<header class="site">
+  <div class="wrap">
     <a href="index.html" class="brand">
-      <svg viewBox="0 0 40 40" fill="none"><circle cx="20" cy="20" r="19" fill="#0E8A5B"/><path d="M20 11c-4 3-4 8 0 11 4-3 4-8 0-11Z" fill="#F5A623"/><path d="M20 22v7" stroke="#F5A623" stroke-width="1.6"/></svg>
-      <span><span class="brand-text">Vassouras</span><span class="brand-sub">VALE DO CAFÉ · RJ</span></span>
+      <span class="emblema"><span></span><span></span><span></span><span></span></span>
+      <span>
+        <span class="nome">Vassouras</span>
+        <span class="sub">Cidade Histórica, Turística &amp; Universitária</span>
+      </span>
     </a>
-    <button class="nav-toggle" id="navToggle">Menu</button>
-    <nav class="primary" id="primaryNav">
-      <a href="index.html">Início</a>
-      <a href="atrativos.html">Atrativos</a>
-      <a href="fazendas.html" class="active">Fazendas</a>
-      <a href="cafe.html">Café &amp; Chorinho</a>
-      <a href="gastronomia.html">Gastronomia</a>
-      <a href="hospedagem.html">Hospedagem</a>
-      <a href="como-chegar.html">Como chegar</a>
+    <nav class="principal" id="navPrincipal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+<li><a href="atrativos.html">Atrativos</a></li>
+<li><a href="fazendas.html" class="ativo">Fazendas</a></li>
+<li><a href="cafe.html">Café & Chorinho</a></li>
+<li><a href="gastronomia.html">Gastronomia</a></li>
+<li><a href="hospedagem.html">Hospedagem</a></li>
+<li><a href="como-chegar.html">Como chegar</a></li>
+
+      </ul>
     </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
   </div>
 </header>
-
-<main>
-
-  <section class="page-hero">
-    <img class="bg" src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg" alt="Fazenda histórica do ciclo do café">
-    <div class="wrap">
-      <span class="kicker">Ciclo do café · século 19</span>
-      <h1>Fazendas históricas</h1>
-      <p>Das mais de 200 fazendas remanescentes do ciclo do café no Vale do Paraíba, várias em Vassouras abrem as portas para visitação e hospedagem.</p>
+<section class="hero hero-interna" style="background-image:url('https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg');">
+  <div class="hero-inner">
+    <span class="eyebrow">Legado cafeeiro</span>
+    <h1>Fazendas históricas</h1>
+    <p class="lede">Sedes de fazenda erguidas no auge do café fluminense, hoje abertas à visitação — algumas também recebem hóspedes em meio à arquitetura do século 19.</p>
+    <div class="hero-cta">
+      <a href="hospedagem.html" class="btn btn-solid">Ver hospedagem em fazendas</a>
+      <a href="como-chegar.html" class="btn btn-ghost">Como chegar</a>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section>
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow">Um mergulho no Brasil Império</span>
-        <h2>Fazendas que podem ser visitadas</h2>
-        <p>Casarões preservados, museus do café e, em algumas, hospedagem completa dentro da propriedade.</p>
-      </div>
-
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda Santa Eufrásia</h3>
-            <p>A única fazenda particular tombada pelo IPHAN no Vale do Café — uma das construções históricas mais importantes da região.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9%20II.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda São Luiz da Boa Sorte</h3>
-            <p>Reúne museu do café, lago e jardins. Casa-sede com acervo e decoração do século 19 meticulosamente restaurados.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda do Secretário</h3>
-            <p>Considerada o melhor exemplo de solar rural cafeeiro em estilo neoclássico existente no Brasil, restaurada e mobiliada de época.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9%20II.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda Cachoeira do Mato Dentro</h3>
-            <p>Pertenceu ao Barão do Ribeirão e conserva peças originais, incluindo um raro banheiro de pedra da época.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda Cachoeira Grande</h3>
-            <p>Pertenceu ao Barão de Vassouras, Francisco José Teixeira Leite. Hoje une visitação, produção rural e hospedagem em chalé.</p>
-          </div>
-        </div>
-
-        <div class="card">
-          <div class="thumb"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Fazenda%20hist%C3%B3rica%20do%20ciclo%20do%20caf%C3%A9%20II.jpg" alt="Casarão de fazenda histórica do ciclo do café"></div>
-          <div class="body">
-            <h3>Fazenda São Fernando</h3>
-            <p>Uma das grandes fazendas produtoras de café do século 19 no Vale do Paraíba fluminense, ainda hoje conservada.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="info-strip">
-    <div class="wrap">
-      <div class="section-head">
-        <span class="eyebrow" style="color:var(--gold);">Antes de ir</span>
-        <h2>Como funciona a visitação</h2>
-      </div>
-      <div class="grid grid-3">
-        <div class="card">
-          <div class="body">
-            <h3>Agendamento</h3>
-            <p>A maior parte das fazendas recebe visitantes mediante agendamento prévio por telefone ou WhatsApp.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="body">
-            <h3>Duração</h3>
-            <p>As visitas guiadas costumam durar cerca de 2 horas, incluindo a história da fazenda e da família proprietária.</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="body">
-            <h3>Ao final</h3>
-            <p>Muitas propriedades servem um cafezinho com bolo e biscoitos ao término do tour — parte da tradição da casa-grande.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cta-band">
-    <div class="wrap">
-      <h2>Quer dormir dentro de uma fazenda histórica?</h2>
-      <p>Várias propriedades oferecem hospedagem com trilhas, lagos e piscinas.</p>
-      <div class="actions">
-        <a class="btn gold" href="hospedagem.html">Ver hospedagem</a>
-        <a class="btn btn-outline" href="como-chegar.html">Como chegar</a>
-      </div>
-    </div>
-  </section>
-
-</main>
-
-<footer>
+<section>
   <div class="wrap">
-    <div class="footer-grid">
+    <div class="section-head">
+      <span class="eyebrow">Roteiro pelas fazendas</span>
+      <h2>Casarões que guardam o ciclo do café</h2>
+      <p>Da única fazenda tombada individualmente pelo IPHAN às sedes que hoje recebem hóspedes, cada uma com sua própria história.</p>
+    </div>
+  </div>
+  <div class="atrativos-grid">
+    <div class="at-card"><span class="num">☕</span><h3>Fazenda Santa Eufrásia</h3><p>Única fazenda de Vassouras tombada individualmente pelo IPHAN, com arquitetura restaurada do período áureo do café.</p></div>
+<div class="at-card"><span class="num">☕</span><h3>Fazenda São Luiz da Boa Sorte</h3><p>Sede erguida em 1835, decorada com peças dos séculos 18 e 19, aberta para visitas e hospedagem.</p></div>
+<div class="at-card"><span class="num">☕</span><h3>Fazenda Cachoeira Grande</h3><p>Pertenceu ao Barão Francisco José Teixeira Leite; hoje recebe hóspedes em chalés no antigo terreiro de café.</p></div>
+<div class="at-card"><span class="num">☕</span><h3>Fazenda São Fernando</h3><p>Propriedade voltada à agricultura orgânica, com produção de leite e caprinocultura ao lado do casarão histórico.</p></div>
+<div class="at-card"><span class="num">☕</span><h3>Fazenda Mulungu Vermelho</h3><p>Sede erguida em 1831, com visitação mediante agendamento prévio.</p></div>
+
+  </div>
+</section>
+
+<section class="destaque reverso">
+  <div class="wrap">
+    <div class="texto">
+      <span class="eyebrow">Museu Casa da Hera</span>
+      <h2>A casa que parou no tempo</h2>
+      <p>Erguida pela família do negociante de café Joaquim José Teixeira Leite, a Casa da Hera preserva os ambientes tal como deixados por sua última moradora, Eufrásia Teixeira Leite — piano de cauda de 1862 incluso.</p>
+      <a href="atrativos.html" class="link-more">Ver também no roteiro de atrativos →</a>
+    </div>
+    <div class="foto"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Museu%20Casa%20da%20Hera%20-%20Vassouras-RJ.jpg" alt="Museu Casa da Hera em Vassouras" loading="lazy"></div>
+  </div>
+</section>
+<footer class="site">
+  <div class="wrap">
+    <div class="foot-grid">
       <div>
-        <h4>Secretaria de Turismo</h4>
-        <p>Av. Otávio Gomes, 395, sala 26, Centro<br>Vassouras – RJ, CEP 27700-000</p>
-        <p>Segunda a sexta, das 8h às 17h</p>
-        <div class="social-row">
-          <a href="https://www.instagram.com/visitevassouras/" aria-label="Instagram">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="12" cy="12" r="4"/></svg>
-          </a>
-          <a href="https://www.facebook.com/visitevassourasof" aria-label="Facebook">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M15 4h-2a4 4 0 0 0-4 4v2H7v3h2v7h3v-7h2.5l.5-3H12V8a1 1 0 0 1 1-1h2Z"/></svg>
-          </a>
+        <div class="foot-brand">
+          <span class="emblema"><span></span><span></span><span></span><span></span></span>
+          <span class="nome">Vassouras</span>
         </div>
+        <p>Secretaria de Turismo de Vassouras. Av. Otávio Gomes, 395, sala 26, Centro, Vassouras – RJ, CEP 27700-000.</p>
+        <p>Segunda a sexta, das 8h às 17h.</p>
       </div>
-      <div>
-        <h4>Contato</h4>
-        <p><a href="tel:+552424919018">(24) 2491-9018</a></p>
-        <p><a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a></p>
+      <div class="foot-col">
+        <h5>Explorar</h5>
+        <a href="atrativos.html">Atrativos turísticos</a>
+        <a href="fazendas.html">Fazendas históricas</a>
+        <a href="hospedagem.html">Hospedagem</a>
       </div>
-      <div>
-        <h4>Explorar</h4>
-        <p><a href="atrativos.html">Atrativos turísticos</a></p>
-        <p><a href="fazendas.html">Fazendas históricas</a></p>
-        <p><a href="hospedagem.html">Hospedagem</a></p>
+      <div class="foot-col">
+        <h5>Informações</h5>
+        <a href="como-chegar.html">Como chegar</a>
+        <a href="gastronomia.html">Gastronomia</a>
+        <a href="cafe.html">Café, cachaça e chorinho</a>
       </div>
-      <div>
-        <h4>Informações</h4>
-        <p><a href="como-chegar.html">Como chegar</a></p>
-        <p><a href="gastronomia.html">Gastronomia</a></p>
-        <p><a href="cafe.html">Café, cachaça e chorinho</a></p>
+      <div class="foot-col">
+        <h5>Contato</h5>
+        <a href="tel:+552424919018">(24) 2491-9018</a>
+        <a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a>
+        <a href="https://www.instagram.com/visitevassouras/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.facebook.com/visitevassourasof" target="_blank" rel="noopener">Facebook</a>
       </div>
     </div>
     <div class="foot-bottom">
       <span>© 2026 Prefeitura Municipal de Vassouras · Secretaria de Turismo</span>
-      <span>Página inspirada em visitevassouras.com</span>
+      <span>Vale do Café · Estado do Rio de Janeiro</span>
     </div>
   </div>
 </footer>
-
 <script>
-  var t=document.getElementById('navToggle'), n=document.getElementById('primaryNav');
-  t.addEventListener('click', function(){ n.classList.toggle('open'); });
+  const toggle = document.getElementById('navToggle');
+  const nav = document.getElementById('navPrincipal');
+  if(toggle){
+    toggle.addEventListener('click', () => nav.classList.toggle('aberto'));
+    nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('aberto')));
+  }
 </script>
 </body>
 </html>
