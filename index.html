@@ -19,6 +19,7 @@
       <a href="mailto:turismo@vassouras.rj.gov.br">turismo@vassouras.rj.gov.br</a>
     </div>
     <div class="social">
+      <a href="https://turismo-vassourass-delta.vercel.app" data-pesquisa="">Responda a pesquisa</a>
       <a href="https://www.instagram.com/visitevassouras/" target="_blank" rel="noopener">Instagram</a>
       <a href="https://www.facebook.com/visitevassourasof" target="_blank" rel="noopener">Facebook</a>
     </div>
@@ -35,6 +36,7 @@
     <nav class="principal" id="navPrincipal">
       <ul>
         <li><a href="index.html" class="ativo">Início</a></li>
+<li><a href="conselho.html">O Conselho</a></li>
 <li><a href="atrativos.html">Atrativos</a></li>
 <li><a href="fazendas.html">Fazendas</a></li>
 <li><a href="cafe.html">Café & Chorinho</a></li>
@@ -148,6 +150,29 @@
   </div>
 </section>
 
+<section id="dinamico-eventos" hidden>
+  <div class="wrap">
+    <div class="section-head">
+      <h2>Próximos eventos</h2>
+      <p>Agenda cadastrada pelo Conselho Municipal de Turismo.</p>
+    </div>
+    <div class="eventos-lista"></div>
+  </div>
+</section>
+
+<section class="pesquisa-cta">
+  <div class="wrap">
+    <div>
+      <h2>Está visitando Vassouras?</h2>
+      <p>Responda à pesquisa de perfil do visitante. As respostas são anônimas e ajudam o Conselho a planejar melhor o turismo na cidade — de sinalização a novos roteiros.</p>
+    </div>
+    <div class="acoes">
+      <a href="https://turismo-vassourass-delta.vercel.app" data-pesquisa="" class="btn btn-solid">Responder a pesquisa</a>
+      <small>Leva pouco tempo e pode ser feita pelo celular.</small>
+    </div>
+  </div>
+</section>
+
 <section class="cta-final">
   <div class="wrap">
     <h2>Pronto para conhecer a Cidade dos Barões?</h2>
@@ -176,9 +201,12 @@
       </div>
       <div class="foot-col">
         <h5>Informações</h5>
+        <a href="conselho.html">O Conselho</a>
+        <a href="https://turismo-vassourass-delta.vercel.app" data-pesquisa="">Pesquisa de visitantes</a>
         <a href="como-chegar.html">Como chegar</a>
         <a href="gastronomia.html">Gastronomia</a>
         <a href="cafe.html">Café, cachaça e chorinho</a>
+        <a href="privacidade.html">Privacidade e cookies</a>
       </div>
       <div class="foot-col">
         <h5>Contato</h5>
@@ -192,6 +220,7 @@
       <span>© 2026 Prefeitura Municipal de Vassouras · Conselho Municipal de Turismo</span>
       <span>Vale do Café · Estado do Rio de Janeiro</span>
     </div>
+    <p class="creditos">Fotos: Wikimedia Commons, sob licenças Creative Commons. Os créditos de cada imagem estão no link de origem.</p>
   </div>
 </footer>
 <script>
@@ -202,5 +231,7 @@
     nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => nav.classList.remove('aberto')));
   }
 </script>
+<script src="config.js"></script>
+<script src="site.js"></script>
 </body>
 </html>

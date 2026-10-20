@@ -325,3 +325,95 @@ footer.site{background:var(--grafite-suave); color:var(--texto-suave); padding:7
   section{padding:64px 0;}
   .ledger{column-count:1;}
 }
+
+/* ===================================================================
+   Conselho, pesquisa, privacidade e conteúdo dinâmico
+   =================================================================== */
+.vazio{color:var(--ink-suave); font-size:0.95rem; padding:28px 0; border-top:1px solid var(--linha);}
+
+/* composição do conselho */
+.conselho-resumo{display:grid; grid-template-columns:repeat(3,1fr); gap:1px; background:var(--linha); border:1px solid var(--linha); margin-bottom:56px;}
+.conselho-resumo div{background:#fff; padding:28px;}
+.conselho-resumo b{font-family:'Fraunces',serif; font-size:2.2rem; font-weight:500; display:block; line-height:1; color:var(--verde);}
+.conselho-resumo span{font-size:0.92rem; color:var(--ink-suave); display:block; margin-top:10px;}
+.membros-titulo{font-size:1.35rem; margin:8px 0 22px;}
+.membros{display:grid; grid-template-columns:repeat(auto-fill,minmax(200px,1fr)); gap:28px; margin-bottom:56px;}
+.membro .retrato{aspect-ratio:4/5; background:#E8E1D3; overflow:hidden; display:flex; align-items:center; justify-content:center;}
+.membro .retrato img{width:100%; height:100%; object-fit:cover;}
+.membro .retrato span{font-family:'Fraunces',serif; font-size:2.6rem; color:rgba(14,22,19,0.35);}
+.membro h4{font-size:1.05rem; margin-top:14px;}
+.membro p{font-size:0.86rem; color:var(--ink-suave); line-height:1.45; margin-top:4px;}
+
+/* documentos (leis, regulamento, atas) */
+.docs{border-top:1px solid var(--linha);}
+.doc{display:flex; justify-content:space-between; align-items:baseline; gap:18px; padding:16px 0; border-bottom:1px solid var(--linha);}
+.doc a{font-family:'Fraunces',serif; font-size:1.05rem; color:var(--grafite);}
+.doc a:hover{color:var(--azul);}
+.doc .meta{font-size:0.82rem; color:var(--ink-suave); white-space:nowrap;}
+.docs-grid{display:grid; grid-template-columns:1fr 1fr; gap:56px;}
+
+/* chamada da pesquisa */
+.pesquisa-cta .wrap{display:grid; grid-template-columns:1.2fr 1fr; gap:48px; align-items:center;}
+.pesquisa-cta h2{font-size:clamp(1.7rem,3vw,2.3rem); margin-bottom:14px;}
+.pesquisa-cta p{color:var(--ink-suave); max-width:52ch;}
+.pesquisa-cta .acoes{display:flex; flex-direction:column; gap:12px; align-items:flex-start;}
+.pesquisa-cta .acoes small{font-size:0.82rem; color:var(--ink-suave);}
+
+/* eventos */
+.eventos-lista{border-top:1px solid var(--linha);}
+.evento{display:grid; grid-template-columns:150px 1fr; gap:24px; padding:20px 0; border-bottom:1px solid var(--linha);}
+.evento .data{font-weight:600; color:var(--verde); font-size:0.95rem;}
+.evento h3{font-size:1.15rem;}
+.evento p{font-size:0.9rem; color:var(--ink-suave);}
+
+/* texto longo (privacidade) */
+.texto-longo{max-width:72ch;}
+.texto-longo h2{font-size:1.45rem; margin:44px 0 12px;}
+.texto-longo h2:first-child{margin-top:0;}
+.texto-longo p, .texto-longo li{color:var(--ink-suave); margin-bottom:12px;}
+.texto-longo ul{padding-left:20px;}
+.texto-longo a{color:var(--azul); text-decoration:underline;}
+
+/* aviso de cookies */
+.aviso-cookies{
+  position:fixed; left:16px; right:16px; bottom:16px; z-index:60; max-width:640px; margin:0 auto;
+  background:var(--grafite); color:var(--creme); border-radius:14px; padding:18px 20px;
+  display:flex; gap:18px; align-items:center; justify-content:space-between; flex-wrap:wrap;
+  box-shadow:0 10px 30px rgba(0,0,0,0.25); font-size:0.88rem; line-height:1.5;
+}
+.aviso-cookies a{text-decoration:underline;}
+.aviso-cookies button{
+  background:var(--creme); color:var(--grafite); border:0; border-radius:999px;
+  padding:9px 18px; font:600 0.85rem 'Inter',sans-serif; cursor:pointer;
+}
+.aviso-cookies button:focus-visible, .btn:focus-visible, nav.principal a:focus-visible{outline:2px solid var(--azul); outline-offset:2px;}
+.creditos{font-size:0.72rem; color:rgba(247,242,231,0.5); margin-top:10px;}
+
+@media (max-width:980px){
+  .conselho-resumo{grid-template-columns:1fr;}
+  .docs-grid, .pesquisa-cta .wrap{grid-template-columns:1fr; gap:36px;}
+}
+@media (max-width:720px){
+  .evento{grid-template-columns:1fr; gap:6px;}
+  .doc{flex-direction:column; gap:4px;}
+}
+
+/* navegação com o item "O Conselho": mantém tudo em uma linha */
+nav.principal ul{flex-wrap:nowrap;}
+nav.principal a{padding:9px 11px; white-space:nowrap;}
+@media (min-width:861px) and (max-width:1180px){
+  .brand .sub{display:none;}
+  nav.principal a{padding:8px 8px; font-size:0.78rem;}
+}
+@media (max-width:860px){
+  .topbar{display:none;}
+  nav.principal{
+    position:fixed; inset:78px 0 0 0; background:var(--verde-escuro);
+    padding:30px 32px; transform:translateX(100%); transition:transform .3s ease;
+    overflow-y:auto;
+  }
+  nav.principal.aberto{transform:translateX(0);}
+  nav.principal ul{flex-direction:column; gap:6px;}
+  nav.principal a{display:block; font-size:1rem; padding:14px 16px;}
+  .nav-toggle{display:flex;}
+}
