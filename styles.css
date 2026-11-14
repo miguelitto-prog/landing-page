@@ -418,26 +418,8 @@ nav.principal a{padding:9px 11px; white-space:nowrap;}
   .nav-toggle{display:flex;}
 }
 
-/* ---------- O Conselho: diretoria, suplentes, documentos ---------- */
-.membros-diretoria{grid-template-columns:repeat(auto-fill,minmax(220px,1fr));}
-.membro .cargo{display:inline-block; margin-top:14px; font-size:0.72rem; font-weight:700; letter-spacing:0.08em; text-transform:uppercase; color:var(--verde-escuro); background:var(--ambar); padding:4px 10px; border-radius:999px;}
-.membro .cargo + h4{margin-top:10px;}
-.suplentes-titulo{font-size:0.8rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ink-suave); margin:-28px 0 14px;}
-.suplentes{list-style:none; padding:0; display:grid; grid-template-columns:repeat(auto-fill,minmax(260px,1fr)); gap:0 28px; border-top:1px solid var(--linha); margin-bottom:56px;}
-.suplentes li{padding:12px 0; border-bottom:1px solid var(--linha);}
-.suplentes b{display:block; font-weight:600; font-size:0.95rem;}
-.suplentes span{font-size:0.82rem; color:var(--ink-suave);}
-.doc small{display:block; font-size:0.8rem; color:var(--ink-suave); margin-top:4px;}
-
-/* ---------- chamada para o RATT ---------- */
-.ratt-cta{background:var(--verde-escuro); color:var(--creme);}
-.ratt-cta .wrap{display:grid; grid-template-columns:1.2fr 1fr; gap:48px; align-items:center;}
+/* chamada para o RATT (transporte turístico) */
+.ratt-cta{background:var(--verde-escuro); color:var(--texto);}
 .ratt-cta .eyebrow{color:var(--ambar); display:block; margin-bottom:12px;}
-.ratt-cta h2{color:var(--creme); font-size:clamp(1.7rem,3vw,2.3rem); margin-bottom:14px;}
-.ratt-cta p{color:var(--texto-suave); max-width:52ch;}
-.ratt-cta .acoes{display:flex; flex-direction:column; gap:12px; align-items:flex-start;}
-.ratt-cta .acoes small{font-size:0.82rem; color:var(--texto-suave);}
-@media (max-width: 760px){
-  .ratt-cta .wrap{grid-template-columns:1fr; gap:28px;}
-  .suplentes-titulo{margin-top:-20px;}
-}
+.ratt-cta h2{color:var(--creme);}
+.ratt-cta p, .ratt-cta .acoes small{color:var(--texto-suave);}
